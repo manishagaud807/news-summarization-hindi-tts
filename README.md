@@ -2,17 +2,17 @@
 """
 # News Summarization and Hindi TTS Application
 
-## 🔍 Description
+## Description
 A web app that fetches news articles related to a company, performs sentiment analysis, summarizes them, and reads the summary aloud in Hindi.
 
-## 🚀 Features
+##  Features
 - Scrape news from Bing
 - Summarize articles using Transformers
 - Analyze sentiment using VADER
 - Generate Hindi speech with gTTS
 - User-friendly UI with Streamlit
 
-## 🧱 Setup
+##  Setup
 ```bash
 git clone <repo-url>
 cd news-sentiment-tts
@@ -29,6 +29,6 @@ Run frontend:
 streamlit run ui/app.py
 ```
 
-## 📦 Deployment
+##  Deployment
 Deploy on Hugging Face Spaces using a standalone `Dockerfile` or as a Gradio/Streamlit Space.
 """
